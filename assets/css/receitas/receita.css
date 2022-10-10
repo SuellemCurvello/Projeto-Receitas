@@ -1,0 +1,42 @@
+.receita{
+    background: #fdfdfd;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+    
+}
+
+@media screen and (min-width: 0){
+    .receita{
+        margin: 0rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .receita{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+        margin-bottom: 2.5rem;
+        margin-top: 2rem;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .receita{
+        margin-right: 7rem;
+        margin-left: 6rem;
+        width: calc(25% - 7rem);
+    }
+    .salada__oriental{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-left: 0;
+        padding-right: 0;       
+    }
+
+}

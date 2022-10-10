@@ -1,0 +1,14 @@
+.quem-somos{
+    padding: 5rem;
+    padding-left: 15rem;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 0){
+    .quem-somos{
+        flex-direction: column;
+        margin: 0rem 0rem 0rem -11rem;
+    }
+
+}

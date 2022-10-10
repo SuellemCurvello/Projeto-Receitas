@@ -1,0 +1,54 @@
+.pessoa__imagem{
+    
+    border-radius: 100%;
+    margin: 0 auto;
+    
+}
+
+.pessoa__imagem--roberta{
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+.pessoa__imagem--suellem{
+    background-image: url('../../img/pessoas/su.jpg');
+}
+.pessoa__imagem--andreia{
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+
+@media screen and (min-width: 0){
+    .pessoa__imagem{
+        height: 200px;
+        width: 200px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+        padding: 0rem;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .pessoa__imagem{
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .pessoa__imagem{
+        height: 300px;
+        width: 300px;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .pessoa__nome{
+        margin-left: 1rem;
+    }
+
+}
